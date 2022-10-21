@@ -3,6 +3,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .left-section {
@@ -23,7 +29,7 @@
   font-size: 10px;
   margin-bottom: 18px;
   margin-left: 4px;
-  color: rgb(96, 96, 96);
+  color: #606060;
 }
 
 .middle-section {
