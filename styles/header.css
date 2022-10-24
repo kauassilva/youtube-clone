@@ -1,5 +1,5 @@
 .header {
-  height: 55px;
+  height: 56px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,7 +28,7 @@
 
 .country-code {
   font-size: 10px;
-  margin: 0 0 18px 4px;
+  margin: 0 0 19px 4px;
   color: #606060;
 }
 
@@ -68,9 +68,14 @@
 .search-button {
   width: 66px;
   height: 40px;
-  background-color: #f0f0f0;
+  background-color: #f8f8f8;
   border: 1px solid #c0c0c0;
   margin: 0 10px 0 -1px;
+  transition: background-color 0.15s;
+}
+
+.search-button:hover {
+  background-color: #f0f0f0;
 }
 
 .search-button .tooltip,
@@ -106,7 +111,7 @@
   width: 40px;
   border-radius: 50%;
   border: none;
-  background-color: #f0f0f0;
+  background-color: #f9f9f9;
 }
 
 .voice-search-icon {
@@ -115,7 +120,7 @@
 
 .right-section {
   width: 140px;
-  margin-right: 20px;
+  margin-right: 29px;
   display: flex;
   align-items: center;
   justify-content: space-between;

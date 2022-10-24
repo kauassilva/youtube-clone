@@ -2,11 +2,11 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 55px;
+  top: 56px;
   background-color: #ffffff;
   width: 72px;
   z-index: 200;
-  padding-top: 5px; 
+  padding-top: 4px; 
 }
 
 .sidebar-link {
@@ -24,7 +24,7 @@
 
 .sidebar-link img {
   height: 24px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .sidebar-link div {

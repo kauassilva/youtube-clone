@@ -1,0 +1,92 @@
+.topbar {
+  display: flex;
+  background-color: #ffffff;
+  position: fixed;
+  top: 55px;
+  left: 72px;
+  right: 0;
+  height: 58px;
+  border-bottom: 1px solid #e4e4e4;
+  z-index: 90;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-container {
+  position: relative;
+  z-index: 100;
+}
+
+.current-filter,
+.filter-button {
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.current-filter {
+  margin: 1px 12px 0 24px;
+  background-color: #000000;
+  color: #ffffff;
+  border-width: 1px;
+}
+
+.filter-button {
+  margin: 1px 12px 0 0;
+  background-color: #0000000d;
+  border: 1px solid #0000001a;
+  color: #030303;
+  transition: background-color 0.15s;
+  position: relative;
+  z-index: 100;
+}
+
+.filter-button:hover {
+  background-color: #e5e5e5;
+}
+
+.next-icon-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  background: linear-gradient(90deg, #ffffff00 0%, #fffffff0 20%);
+  height: 100%;
+  width: 80px;
+  justify-content: end;
+  align-items: center;
+  z-index: 110;
+}
+
+.next-icon {
+  margin: 4px 13px 0 0;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.next-icon .tooltip {
+  position: absolute;
+  background-color: #808080;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.next-icon:hover .tooltip {
+  opacity: 1;
+}
