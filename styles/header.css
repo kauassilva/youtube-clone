@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   border-bottom: 1px solid #e4e4e4;
   z-index: 100;
 }
@@ -28,8 +28,7 @@
 
 .country-code {
   font-size: 10px;
-  margin-bottom: 18px;
-  margin-left: 4px;
+  margin: 0 0 18px 4px;
   color: #606060;
 }
 
@@ -72,8 +71,7 @@
   height: 40px;
   background-color: #f0f0f0;
   border: 1px solid #c0c0c0;
-  margin-left: -1px;
-  margin-right: 10px;
+  margin: 0 10px 0 -1px;
 }
 
 .search-button .tooltip,
@@ -82,8 +80,8 @@
 .notification-icon-container .tooltip {
   font-family: Roboto, Arial;
   position: absolute;
-  background-color: gray;
-  color: white;
+  background-color: #808080;
+  color: #ffffff;
   padding: 4px 8px;
   border-radius: 2px;
   font-size: 12px;
@@ -142,8 +140,8 @@
   position: absolute;
   top: -2px;
   right: -5px;
-  background-color: rgb(200, 0, 0);
-  color: white;
+  background-color: #c80000;
+  color: #ffffff;
   font-family: Roboto, Arial;
   font-size: 11px;
   padding: 2px 5px;
