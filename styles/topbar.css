@@ -90,3 +90,97 @@
 .next-icon:hover .tooltip {
   opacity: 1;
 }
+
+
+
+/* Os seguintes códigos é referente a responsividade da topbar */
+
+@media only screen and (max-width: 514px) {
+  .remove1,
+  .remove2,
+  .remove3,
+  .remove4,
+  .remove5,
+  .remove6,
+  .remove7,
+  .remove8,
+  .remove9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .remove2,
+  .remove3,
+  .remove4,
+  .remove5,
+  .remove6,
+  .remove7,
+  .remove8,
+  .remove9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 722px) {
+  .remove3,
+  .remove4,
+  .remove5,
+  .remove6,
+  .remove7,
+  .remove8,
+  .remove9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 817px) {
+  .remove4,
+  .remove5,
+  .remove6,
+  .remove7,
+  .remove8,
+  .remove9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 902px) {
+  .remove5,
+  .remove6,
+  .remove7,
+  .remove8,
+  .remove9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  .remove6,
+  .remove7,
+  .remove8,
+  .remove9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1128px) {
+  .remove7,
+  .remove8,
+  .remove9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1252px) {
+  .remove8,
+  .remove9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1338px) {
+  .remove9 {
+    display: none;
+  }
+}
