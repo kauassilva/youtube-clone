@@ -51,6 +51,8 @@
   width: 0;
 }
 
+
+
 .search-bar::placeholder {
   font-size: 16px;
 }
@@ -153,4 +155,32 @@
 .current-user-picture {
   height: 32px;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 656px) {
+  .left-section {
+    margin-right: 10%;
+  }
+
+  .middle-section {
+    margin: 0 0 0 0;
+  }
+  .search-bar {
+    display: none;
+  }
+
+  .search-button {
+    border: none;
+    background-color: transparent;
+    width: fit-content;
+    margin-right: 0;
+  }
+
+  .search-button:hover {
+    background-color: transparent;
+  }
+
+  .voice-search-button {
+    background-color: transparent;
+  }
 }
