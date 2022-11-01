@@ -184,3 +184,37 @@
     background-color: transparent;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .voice-search-button {
+    display: none;
+  }
+
+  .upload-icon-container {
+    display: none;
+  }
+
+  .notification-icon-container {
+    margin-right: 20px;
+  }
+
+  .left-section {
+    margin-right: 0;
+  }
+
+  .hamburger-menu {
+    margin: 0 20px;
+  }
+
+  .middle-section {
+    justify-content: end;
+    margin: 10px;
+  }
+
+  .right-section {
+    justify-content: end;
+    width: fit-content;
+    margin-right: 20px;
+  }
+
+}

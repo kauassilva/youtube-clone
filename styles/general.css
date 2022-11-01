@@ -9,3 +9,9 @@ body {
 p {
   margin: 0;
 }
+
+@media only screen and (max-width: 375px) {
+  body {
+    padding: 136px 24px 0 24px;
+  }
+}
