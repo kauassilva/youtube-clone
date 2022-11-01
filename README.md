@@ -26,6 +26,10 @@ Este projeto é apenas visual, não possui nenhuma funcionalidade. O projeto tam
 | ---- |
 | ![](assets/readme-pictures/resolution-520px.png) |
 
+| width: 320px |
+| ---- |
+| ![](assets/readme-pictures/resolution-320px.png) |
+
 ---
 
 <h3 align="center">Obrigado por olhar 😀, se gostou deixe uma estrela ⭐ para me ajudar.</h3>
